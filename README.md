@@ -10,6 +10,8 @@ Place the file `trivia.mrc` in your mIRC directory and run the following command
 
     /load -rs trivia.mrc
 
+Press `ALT + R` and select `trivia.mrc` in the view menu to configure the script (see below).
+
 ### Configuration
 
 The configuration lines can be found near the top of `trivia.mrc`.

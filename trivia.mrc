@@ -1,20 +1,28 @@
-; trivia.chan             The channel in which the bot responds to commands, and speaks.
-; trivia.pre              The character to use as a command prefix.
-; trivia.qlength          How long (in seconds) to give people to answer a question.
-; trivia.hintintv         The pause (in seconds) between hints.
-; trivia.questionpause    How long (in seconds) to wait between the end of a question and the start of a new one.
-; trivia.unansweredstop   After how many unanswered questions to automatically stop.
-; trivia.questionfile     The file that stores the questions.
-; trivia.scoresfile       The file that stores the scores.
-
+; The channel in which the bot responds to commands, and speaks.
 alias trivia.chan return #trivia
+
+; The character to use as a command prefix.
 alias trivia.pre return .
+
+; How long (in seconds) to give people to answer a question.
 alias trivia.qlength return 60
+
+; The pause (in seconds) between hints.
 alias trivia.hintintv return 15
+
+; How long (in seconds) to wait between the end of a question and the start of a new one.
 alias trivia.questionpause return 10
+
+; After how many unanswered questions to automatically stop.
 alias trivia.unansweredstop return 10
+
+; The file that stores the questions.
 alias trivia.questionfile return questions.txt
+
+; The file that stores the scores.
 alias trivia.scoresfile return scores.ini
+
+;------------------------------------------------------------------------------------
 
 on 2:TEXT:*:$($trivia.chan): {
   tokenize 32 $strip($1-)
