@@ -1,6 +1,4 @@
-# trivia.mrc
-
-## What?
+## Introduction
 
 `trivia.mrc` is a simple trivia bot written in mIRC script.
 
