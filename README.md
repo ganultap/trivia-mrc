@@ -1,10 +1,10 @@
-## trivia.mrc
+# trivia.mrc
 
-### What?
+## What?
 
 `trivia.mrc` is a simple trivia bot written in mIRC script.
 
-### Installation
+## Installation
 
 Place the file `trivia.mrc` in your mIRC directory and run the following command inside mIRC.
 
@@ -12,7 +12,7 @@ Place the file `trivia.mrc` in your mIRC directory and run the following command
 
 Press `ALT + R` and select `trivia.mrc` in the view menu to configure the script (see below).
 
-### Configuration
+## Configuration
 
 The configuration lines can be found near the top of `trivia.mrc`.
 
@@ -29,7 +29,7 @@ The format of each configuration line is `alias trivia.<option> return <value>` 
 | `trivia.questionfile` | The file in which the questions are stored. | questions.txt
 | `trivia.scoresfile` | The file in which the scores are stored. | scores.ini
 
-### Commands
+## Commands
 
 These are the commands the bot will respond to in the trivia channel. They should be prefixed by the command prefix like `.start` (if you chose `.` as the command prefix).
 
@@ -41,7 +41,7 @@ These are the commands the bot will respond to in the trivia channel. They shoul
 | `repeat` | Asks the bot to repeat the current question.
 | `score [name]` | Shows `[name]`'s score, or your own if `[name]` is not specified.
 
-### Questions
+## Questions
 
 The format of `questions.txt` is
 
@@ -53,7 +53,7 @@ For example:
 
 (Yes, I know that's technically not a question. Feel free to add your own or make corrections. The current questions file contains a bunch of questions I found somewhere out on the interwebs a long time ago. They're not brilliant, but they'll do.)
 
-### Scores
+## Scores
 
 Scores are stored in an `.ini` file, one score per nickname.
 
@@ -65,6 +65,6 @@ For example:
 
 There is no way to merge the scores of different nicknames used by the same person. Sorry.
 
-### Credits
+## Credits
 
 No idea. This script was written quite a long time ago.
