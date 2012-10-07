@@ -8,7 +8,7 @@ Place the file `trivia.mrc` in your mIRC directory and run the following command
 
     /load -rs trivia.mrc
 
-Press `ALT + R` and select `trivia.mrc` in the view menu to configure the script (see below).
+Press <kbd>ALT</kbd> + <kbd>R</kbd> and select `trivia.mrc` in the view menu to configure the script (see below).
 
 ## Configuration
 
@@ -57,9 +57,11 @@ Scores are stored in an `.ini` file, one score per nickname.
 
 For example:
 
-    [scores]
-    name1=24
-    name2=93
+```ini
+[scores]
+name1=24
+name2=93
+```
 
 There is no way to merge the scores of different nicknames used by the same person. Sorry.
 
