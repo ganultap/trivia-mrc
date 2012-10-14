@@ -72,3 +72,7 @@ No idea. This script was written quite a long time ago.
 ## Bugs or contributions
 
 Open an [issue](http://github.com/crdx/trivia-mrc/issues) or send a [pull request](http://github.com/crdx/trivia-mrc/pulls).
+
+## Licence
+
+[MIT](https://github.com/crdx/trivia-mrc/blob/master/LICENCE.md).
