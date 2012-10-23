@@ -4,7 +4,7 @@
 
 ## Installation
 
-Place the file `trivia.mrc` in your mIRC directory and run the following command inside mIRC.
+Put `src/trivia.mrc` in your mIRC directory and run the following command inside mIRC.
 
     /load -rs trivia.mrc
 
