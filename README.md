@@ -75,4 +75,4 @@ Open an [issue](http://github.com/crdx/trivia-mrc/issues) or send a [pull reques
 
 ## Licence
 
-[MIT](https://github.com/crdx/trivia-mrc/blob/master/LICENCE.md).
+[MIT](LICENCE.md).
